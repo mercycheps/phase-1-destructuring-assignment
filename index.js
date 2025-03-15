@@ -87,7 +87,13 @@ console.log(v); // "violet"
 const colorsOfRainbow = ["red", "orange", "yellow", "green", "blue", "violet", "indigo"];
 
 // Destructuring to declare indg for "indigo"
-const [, , , , , , indg] = rainbowColors;
+
+
+// Array of rainbow colors
+const rainbowOfColors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+// Destructuring to extract "indigo" using indg
+const [, , , , , indg] = rainbowOfColors;
 
 console.log(indg); // "indigo"
 // Strings
